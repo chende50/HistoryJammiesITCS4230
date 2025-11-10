@@ -1,11 +1,16 @@
 {
   "$GMObject":"",
   "%Name":"obj_dinoController",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":1,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"obj_dinoController",
   "overriddenProperties":[
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_minigameController","path":"objects/obj_minigameController/obj_minigameController.yy",},"propertyId":{"name":"gameName","path":"objects/obj_minigameController/obj_minigameController.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Dino Disaster",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_minigameController","path":"objects/obj_minigameController/obj_minigameController.yy",},"propertyId":{"name":"difficultyScaling","path":"objects/obj_minigameController/obj_minigameController.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"60",},
   ],
   "parent":{
     "name":"Minigames",
@@ -28,7 +33,9 @@
   "physicsShape":1,
   "physicsShapePoints":[],
   "physicsStartAwake":true,
-  "properties":[],
+  "properties":[
+    {"$GMObjectProperty":"v2","%Name":"meteorSpeed","filters":[],"listItems":[],"multiselect":false,"name":"meteorSpeed","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"1","varType":0,},
+  ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
