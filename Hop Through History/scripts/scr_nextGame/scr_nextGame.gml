@@ -3,7 +3,7 @@ function scr_nextGame(current){
 	
 	while(next == current)
 	{
-		next = roomArray[irandom_range(0, array_length(roomArray))][0]
+		next = global.roomArray[irandom_range(0, array_length(global.roomArray) - 1)][0]
 	}
 	
 	return next

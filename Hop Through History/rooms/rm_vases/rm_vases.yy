@@ -17,8 +17,8 @@
   ],
   "name":"rm_vases",
   "parent":{
-    "name":"Rooms",
-    "path":"folders/Rooms.yy",
+    "name":"Minigames",
+    "path":"folders/Rooms/Minigames.yy",
   },
   "parentRoom":null,
   "physicsSettings":{
@@ -31,10 +31,10 @@
   "resourceType":"GMRoom",
   "resourceVersion":"2.0",
   "roomSettings":{
-    "Height":768,
+    "Height":1080,
     "inheritRoomSettings":false,
     "persistent":false,
-    "Width":1366,
+    "Width":1920,
   },
   "sequenceId":null,
   "views":[

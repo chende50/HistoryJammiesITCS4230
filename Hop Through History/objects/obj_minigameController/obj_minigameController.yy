@@ -29,6 +29,8 @@
   "properties":[
     {"$GMObjectProperty":"v2","%Name":"time","filters":[],"listItems":[],"multiselect":false,"name":"time","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"600","varType":0,},
     {"$GMObjectProperty":"v2","%Name":"difficultyScaling","filters":[],"listItems":[],"multiselect":false,"name":"difficultyScaling","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":0,},
+    {"$GMObjectProperty":"v2","%Name":"played","filters":[],"listItems":[],"multiselect":false,"name":"played","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"False","varType":3,},
+    {"$GMObjectProperty":"v2","%Name":"gameName","filters":[],"listItems":[],"multiselect":false,"name":"gameName","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"","varType":2,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

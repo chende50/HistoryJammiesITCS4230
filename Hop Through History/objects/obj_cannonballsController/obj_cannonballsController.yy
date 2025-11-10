@@ -4,7 +4,9 @@
   "eventList":[],
   "managed":true,
   "name":"obj_cannonballsController",
-  "overriddenProperties":[],
+  "overriddenProperties":[
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_minigameController","path":"objects/obj_minigameController/obj_minigameController.yy",},"propertyId":{"name":"gameName","path":"objects/obj_minigameController/obj_minigameController.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Cruising Cannonballs",},
+  ],
   "parent":{
     "name":"Minigames",
     "path":"folders/Objects/Controllers/Minigames.yy",
