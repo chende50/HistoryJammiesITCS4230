@@ -1,4 +1,6 @@
 gravity = .1
-with obj_dinoController{
+vspeed = obj_dinoController.meteorSpeed
+
+/*with obj_dinoController {
 	vspeed = meteorSpeed
-}
+}*/

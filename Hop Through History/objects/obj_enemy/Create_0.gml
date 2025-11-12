@@ -1,0 +1,1 @@
+spd = obj_cannonballsController.enemySpeed
