@@ -7,5 +7,8 @@ global.roomArray = [
 	[rm_vases, obj_vasesController]
 ]
 
+//Set random seed for game
+global.seed = randomize()
+
 //First game is randomly selected from array
 next_game = scr_nextGame(current_game)
