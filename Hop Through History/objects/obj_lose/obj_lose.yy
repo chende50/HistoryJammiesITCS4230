@@ -6,8 +6,8 @@
   "name":"obj_lose",
   "overriddenProperties":[],
   "parent":{
-    "name":"Dino Disaster",
-    "path":"folders/Objects/Dino Disaster.yy",
+    "name":"UI",
+    "path":"folders/Objects/UI.yy",
   },
   "parentObjectId":null,
   "persistent":false,

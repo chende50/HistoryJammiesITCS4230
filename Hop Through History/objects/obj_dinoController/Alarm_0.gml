@@ -1,3 +1,5 @@
+//Timer for game length
+
 // Inherit the parent event
 event_inherited();
 

@@ -1,1 +1,1 @@
-move_towards_point(obj_crosshair.x, obj_crosshair.y, 15)
+move_towards_point(obj_crosshair.x, obj_crosshair.y, 10)

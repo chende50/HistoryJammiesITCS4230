@@ -1,4 +1,5 @@
 alarm[0] = time
+game_over = false
 
 with obj_gameController 
 {

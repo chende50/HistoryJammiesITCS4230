@@ -1,3 +1,5 @@
+//Timer for game length
+
 played = true
-//with obj
+
 room_goto(rm_transition)
