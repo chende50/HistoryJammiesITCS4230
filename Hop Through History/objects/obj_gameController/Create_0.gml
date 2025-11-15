@@ -10,5 +10,8 @@ global.roomArray = [
 //Set random seed for game
 global.seed = randomize()
 
+global.portals = 3
+score = 0
+
 //First game is randomly selected from array
 next_game = scr_nextGame(current_game)
