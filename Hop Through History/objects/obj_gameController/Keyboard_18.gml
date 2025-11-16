@@ -4,3 +4,6 @@ if(keyboard_check(ord("D"))){
 if(keyboard_check(ord("C"))){
 	room_goto(rm_cannonballs)	
 }
+if(keyboard_check(ord("R"))){
+	game_restart()
+}

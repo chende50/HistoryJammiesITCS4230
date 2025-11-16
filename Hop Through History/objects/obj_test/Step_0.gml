@@ -1,3 +1,3 @@
-y += -sin(value) * 5
+y += -sin(value) * amplification
 
-value = (value + .1) % (2 * pi)
+value = (value + stepValue) % (2 * pi)
