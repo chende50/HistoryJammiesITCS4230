@@ -1,9 +1,9 @@
 var barx = 800
 var bary = 100
-var barw = 300
-var barh = 20
+var barw = 400
+var barh = 50
 
-draw_set_color(c_white)
+draw_set_color(c_black)
 draw_rectangle(barx, bary, barx + barw, bary + barh, false)
 
 draw_set_color(c_red)
