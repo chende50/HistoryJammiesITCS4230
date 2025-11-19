@@ -10,3 +10,6 @@ if(keyboard_check(ord("R"))){
 if(keyboard_check(ord("P"))){
 	room_goto(rm_painting)	
 }
+if(keyboard_check(ord("V"))){
+	room_goto(rm_vases)	
+}
