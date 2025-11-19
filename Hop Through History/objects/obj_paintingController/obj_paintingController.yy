@@ -4,12 +4,13 @@
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"obj_paintingController",
   "overriddenProperties":[
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_minigameController","path":"objects/obj_minigameController/obj_minigameController.yy",},"propertyId":{"name":"gameName","path":"objects/obj_minigameController/obj_minigameController.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Painting Patience",},
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_minigameController","path":"objects/obj_minigameController/obj_minigameController.yy",},"propertyId":{"name":"difficultyScaling","path":"objects/obj_minigameController/obj_minigameController.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"50",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_minigameController","path":"objects/obj_minigameController/obj_minigameController.yy",},"propertyId":{"name":"difficultyScaling","path":"objects/obj_minigameController/obj_minigameController.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":".4",},
   ],
   "parent":{
     "name":"Minigames",
@@ -33,9 +34,9 @@
   "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[
-    {"$GMObjectProperty":"v2","%Name":"drift","filters":[],"listItems":[],"multiselect":false,"name":"drift","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"10","varType":0,},
-    {"$GMObjectProperty":"v2","%Name":"playerForce","filters":[],"listItems":[],"multiselect":false,"name":"playerForce","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"5","varType":0,},
+    {"$GMObjectProperty":"v2","%Name":"playerForce","filters":[],"listItems":[],"multiselect":false,"name":"playerForce","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"1","varType":0,},
     {"$GMObjectProperty":"v2","%Name":"balance","filters":[],"listItems":[],"multiselect":false,"name":"balance","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":0,},
+    {"$GMObjectProperty":"v2","%Name":"maxBalance","filters":[],"listItems":[],"multiselect":false,"name":"maxBalance","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"200","varType":0,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

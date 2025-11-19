@@ -1,6 +1,6 @@
-var barx = 800
-var bary = 100
-var barw = 400
+var barx = 610
+var bary = 700
+var barw = 700
 var barh = 50
 
 draw_set_color(c_black)
@@ -9,4 +9,12 @@ draw_rectangle(barx, bary, barx + barw, bary + barh, false)
 draw_set_color(c_red)
 
 //TODO: Make scale with difficulty
-draw_rectangle((barx + barw/2) - 5, bary, (barx + barw/2) + 5, bary + barh, false)
+draw_rectangle((barx + barw/2) - (difficultyScaling * barw/2) , bary, (barx + barw/2) + (difficultyScaling * barw/2), bary + barh, false)
+
+//Set pointer position
+var percent = balance / maxBalance
+var pointerx = barx + (barw/2) + percent * (barw/2)
+
+//Draw pointer
+draw_set_colour(c_white)
+draw_line_width(pointerx, bary, pointerx, bary + barh, 10)
