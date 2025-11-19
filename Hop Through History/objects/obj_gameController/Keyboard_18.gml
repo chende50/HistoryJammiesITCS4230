@@ -7,3 +7,6 @@ if(keyboard_check(ord("C"))){
 if(keyboard_check(ord("R"))){
 	game_restart()
 }
+if(keyboard_check(ord("P"))){
+	room_goto(rm_painting)	
+}
