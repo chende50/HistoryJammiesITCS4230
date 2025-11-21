@@ -7,7 +7,7 @@ if(driftTimer >= driftFinalTime){
 	driftTimer = 0
 	driftFinalTime = random_range(60, 120)
 	//pick new drift target to change direction
-	driftTarget = random_range(-1, 1)
+	driftTarget = random_range(-1.5, 1.5)
 }
 
 //equate the position between last drift and drift target based on speed
