@@ -24,14 +24,17 @@ if(keyboard_check(ord("D")) || keyboard_check(vk_right)){
 }
 
 
-//check for out of dangerzone
-if(abs(balance) > dangerZone){
-	game_over = true
-	instance_create_layer(960, 540, "Instances", obj_lose)
-	alarm[2] = 120
-	
+if game_over
+{
 	//stop movement
 	drift = 0
 	playerForce = 0
-	
+	exit
+}
+
+//check for out of dangerzone
+if(abs(balance) > dangerZone and !game_over){
+	game_over = true
+	instance_create_layer(960, 540, "Instances", obj_lose)
+	alarm[2] = 120
 }

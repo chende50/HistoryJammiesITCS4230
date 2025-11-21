@@ -1,4 +1,4 @@
-x += spd * image_xscale
+x += spd
 
 y += -sin(bobValue) * 5
 
