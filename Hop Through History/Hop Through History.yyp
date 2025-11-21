@@ -58,6 +58,7 @@
     {"id":{"name":"obj_transitionController","path":"objects/obj_transitionController/obj_transitionController.yy",},},
     {"id":{"name":"obj_vase","path":"objects/obj_vase/obj_vase.yy",},},
     {"id":{"name":"obj_vasesController","path":"objects/obj_vasesController/obj_vasesController.yy",},},
+    {"id":{"name":"obj_wall","path":"objects/obj_wall/obj_wall.yy",},},
     {"id":{"name":"rm_cannonballs","path":"rooms/rm_cannonballs/rm_cannonballs.yy",},},
     {"id":{"name":"rm_dino","path":"rooms/rm_dino/rm_dino.yy",},},
     {"id":{"name":"rm_highscoreScreen","path":"rooms/rm_highscoreScreen/rm_highscoreScreen.yy",},},

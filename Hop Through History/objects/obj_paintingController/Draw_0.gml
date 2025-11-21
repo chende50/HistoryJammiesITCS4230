@@ -9,7 +9,7 @@ draw_rectangle(barx, bary, barx + barw, bary + barh, false)
 draw_set_color(c_red)
 
 //TODO: Make scale with difficulty
-draw_rectangle((barx + barw/2) - (difficultyScaling * barw/2) , bary, (barx + barw/2) + (difficultyScaling * barw/2), bary + barh, false)
+draw_rectangle((barx + barw/2) - (global.zoneSize * barw/2) , bary, (barx + barw/2) + (global.zoneSize * barw/2), bary + barh, false)
 
 //Set pointer position
 var percent = balance / maxBalance

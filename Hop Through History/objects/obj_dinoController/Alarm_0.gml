@@ -1,15 +1,14 @@
 //Timer for game length
 
-// Inherit the parent event
-event_inherited();
-
 //Clamp difficulty variables
-clamp(difficultyScaling, 5, 60)
-clamp(meteorSpeed, 10, 100)
+clamp(global.meteorRate, 10, 30)
+clamp(global.meteorSpeed, 2, 8)
 
 //Increment difficulty once timer runs out
-difficultyScaling -= 5
-meteorSpeed += 10
+global.meteorRate -= 5
+global.meteorSpeed += 1
+
+event_inherited();
 
 
 

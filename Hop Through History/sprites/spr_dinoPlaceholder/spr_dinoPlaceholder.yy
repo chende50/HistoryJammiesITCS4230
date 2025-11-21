@@ -1,10 +1,10 @@
 {
   "$GMSprite":"v2",
   "%Name":"spr_dinoPlaceholder",
-  "bboxMode":0,
+  "bboxMode":2,
   "bbox_bottom":299,
-  "bbox_left":25,
-  "bbox_right":294,
+  "bbox_left":50,
+  "bbox_right":220,
   "bbox_top":47,
   "collisionKind":1,
   "collisionTolerance":0,

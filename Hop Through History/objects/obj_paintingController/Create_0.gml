@@ -2,7 +2,7 @@
 event_inherited();
 
 //decides size of danger zone in balance bar
-dangerZone = maxBalance * difficultyScaling
+dangerZone = maxBalance * global.zoneSize
 
 balance = 0
 

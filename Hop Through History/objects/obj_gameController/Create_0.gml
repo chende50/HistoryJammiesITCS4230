@@ -13,5 +13,13 @@ global.seed = randomize()
 global.portals = 3
 score = 0
 
+//global variables for dino
+global.meteorSpeed = 2
+global.meteorRate = 30
+
+//global variables for painting
+global.zoneSize = .4
+
 //First game is randomly selected from array
 next_game = scr_nextGame(current_game)
+
