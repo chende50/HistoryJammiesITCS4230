@@ -29,7 +29,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_vase",
+    "path":"sprites/spr_vase/spr_vase.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
