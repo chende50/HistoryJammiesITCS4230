@@ -3,12 +3,19 @@ if correct
 	global.numCorrect++
 	if global.numCorrect >= 3
 	{
-		room_goto(rm_transition)
+		with obj_vasesController
+		{
+			game_over = false
+			instance_create_layer(960, 540, "Instances", obj_win)
+			alarm[0] = 120
+		}
 	}
-	
-	with obj_vasesController
+	else
 	{
-		scr_vaseRandomize(options)
+		with obj_vasesController
+		{
+			scr_vaseRandomize(options)
+		}
 	}
 }
 else

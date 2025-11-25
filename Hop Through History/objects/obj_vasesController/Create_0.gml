@@ -8,4 +8,5 @@ options =
 	inst_4E431C86
 ]
 
+global.numCorrect = 0
 scr_vaseRandomize(options)

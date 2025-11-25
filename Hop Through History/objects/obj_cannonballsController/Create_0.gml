@@ -1,4 +1,5 @@
 time = global.cannonballsTime
+global.enemiesRemaining = 3
 
 show_debug_message(global.cannonballsTime)
 
