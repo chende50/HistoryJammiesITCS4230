@@ -1,4 +1,4 @@
-global.zoneSize -= .0167
-global.zoneSize = clamp(global.zoneSize, .3, .4)
+global.zoneSize -= .1
+global.zoneSize = clamp(global.zoneSize, .2, .8)
 
 event_inherited()
