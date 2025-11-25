@@ -3,7 +3,6 @@ global.roomArray = [
 	[rm_cannonballs, obj_cannonballsController],
 	[rm_dino, obj_dinoController], 
 	[rm_painting, obj_paintingController], 
-	[rm_shamisen, obj_shamisenController], 
 	[rm_vases, obj_vasesController]
 ]
 
@@ -19,6 +18,9 @@ global.meteorRate = 30
 
 //global variables for painting
 global.zoneSize = .4
+
+//global variable for cannonballs
+global.cannonballsTime = 600
 
 //First game is randomly selected from array
 next_game = scr_nextGame(current_game)

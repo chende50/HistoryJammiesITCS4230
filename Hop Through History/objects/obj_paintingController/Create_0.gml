@@ -12,3 +12,4 @@ driftTarget = random_range(-1.5, 1.5)
 driftSpeed = .005
 driftTimer = 0
 driftFinalTime = random_range(60, 120)
+show_debug_message(global.zoneSize)

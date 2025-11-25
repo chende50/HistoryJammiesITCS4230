@@ -1,3 +1,3 @@
 image_speed = 0
 correct = true
-numCorrect = 0
+global.numCorrect = 0

@@ -27,7 +27,7 @@
   "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[
-    {"$GMObjectProperty":"v2","%Name":"current_game","filters":[],"listItems":[],"multiselect":false,"name":"current_game","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"rm_shamisen","path":"rooms/rm_shamisen/rm_shamisen.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"rm_shamisen","varType":5,},
+    {"$GMObjectProperty":"v2","%Name":"current_game","filters":[],"listItems":[],"multiselect":false,"name":"current_game","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"rm_painting","path":"rooms/rm_painting/rm_painting.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"rm_painting","varType":5,},
     {"$GMObjectProperty":"v2","%Name":"next_game","filters":[],"listItems":[],"multiselect":false,"name":"next_game","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"","varType":5,},
   ],
   "resourceType":"GMObject",

@@ -18,5 +18,4 @@ function scr_vaseRandomize(options){
 	}
 	targetSprite = options[targetSprite].image_index
 	obj_vase.image_index = targetSprite
-	show_debug_message("worked")
 }

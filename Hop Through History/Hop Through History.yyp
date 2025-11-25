@@ -52,7 +52,6 @@
     {"id":{"name":"obj_option","path":"objects/obj_option/obj_option.yy",},},
     {"id":{"name":"obj_paintingController","path":"objects/obj_paintingController/obj_paintingController.yy",},},
     {"id":{"name":"obj_projectile","path":"objects/obj_projectile/obj_projectile.yy",},},
-    {"id":{"name":"obj_shamisenController","path":"objects/obj_shamisenController/obj_shamisenController.yy",},},
     {"id":{"name":"obj_start","path":"objects/obj_start/obj_start.yy",},},
     {"id":{"name":"obj_test","path":"objects/obj_test/obj_test.yy",},},
     {"id":{"name":"obj_transitionController","path":"objects/obj_transitionController/obj_transitionController.yy",},},

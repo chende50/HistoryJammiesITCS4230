@@ -6,5 +6,7 @@ if object_exists(obj_enemy)
 }
 
 played = true
+global.cannonballsTime -= 60
+global.cannonballsTime = clamp(global.cannonballsTime, 300, 600)
 score += 100
 room_goto(rm_transition)

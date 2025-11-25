@@ -1,13 +1,14 @@
 if correct
 {
+	global.numCorrect++
+	if global.numCorrect >= 3
+	{
+		room_goto(rm_transition)
+	}
+	
 	with obj_vasesController
 	{
 		scr_vaseRandomize(options)
-	}
-	numCorrect++
-	if numCorrect >= 3
-	{
-		room_goto(rm_transition)
 	}
 }
 else
