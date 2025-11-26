@@ -1,11 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_lose",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":7,"eventType":7,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_transitionPortal",
+  "eventList":[],
   "managed":true,
-  "name":"obj_lose",
+  "name":"obj_transitionPortal",
   "overriddenProperties":[],
   "parent":{
     "name":"UI",
@@ -30,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_portalBroken",
-    "path":"sprites/spr_portalBroken/spr_portalBroken.yy",
+    "name":"spr_portalTransition",
+    "path":"sprites/spr_portalTransition/spr_portalTransition.yy",
   },
   "spriteMaskId":null,
   "visible":true,
