@@ -15,12 +15,19 @@ score = 0
 //global variables for dino
 global.meteorSpeed = 2
 global.meteorRate = 30
+global.dinoPlayed = false
 
 //global variables for painting
 global.zoneSize = .4
+global.paintingPlayed = false
 
 //global variable for cannonballs
 global.cannonballsTime = 600
+global.cannonballsPlayed = false
+
+//global variables for vases
+global.vasesTime = 600
+global.vasesPlayed = false
 
 //First game is randomly selected from array
 next_game = scr_nextGame(current_game)

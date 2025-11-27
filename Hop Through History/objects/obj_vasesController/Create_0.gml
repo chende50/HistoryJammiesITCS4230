@@ -1,5 +1,4 @@
-// Inherit the parent event
-event_inherited();
+time = global.vasesTime
 
 options = 
 [
@@ -10,3 +9,6 @@ options =
 
 global.numCorrect = 0
 scr_vaseRandomize(options)
+
+// Inherit the parent event
+event_inherited();

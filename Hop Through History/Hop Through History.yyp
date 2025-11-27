@@ -11,7 +11,6 @@
   "defaultScriptType":1,
   "Folders":[
     {"$GMFolder":"","%Name":"Fonts","folderPath":"folders/Fonts.yy","name":"Fonts","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"Particles","folderPath":"folders/Particles.yy","name":"Particles","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Objects","folderPath":"folders/Objects.yy","name":"Objects","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Controllers","folderPath":"folders/Objects/Controllers.yy","name":"Controllers","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Minigames","folderPath":"folders/Objects/Controllers/Minigames.yy","name":"Minigames","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -20,6 +19,7 @@
     {"$GMFolder":"","%Name":"Painting Patience","folderPath":"folders/Objects/Painting Patience.yy","name":"Painting Patience","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"UI","folderPath":"folders/Objects/UI.yy","name":"UI","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Various Vases","folderPath":"folders/Objects/Various Vases.yy","name":"Various Vases","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Particles","folderPath":"folders/Particles.yy","name":"Particles","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Rooms","folderPath":"folders/Rooms.yy","name":"Rooms","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Minigames","folderPath":"folders/Rooms/Minigames.yy","name":"Minigames","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Scripts","folderPath":"folders/Scripts.yy","name":"Scripts","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -77,6 +77,7 @@
     {"id":{"name":"rm_vases","path":"rooms/rm_vases/rm_vases.yy",},},
     {"id":{"name":"scr_displayGame","path":"scripts/scr_displayGame/scr_displayGame.yy",},},
     {"id":{"name":"scr_nextGame","path":"scripts/scr_nextGame/scr_nextGame.yy",},},
+    {"id":{"name":"scr_resetGlobals","path":"scripts/scr_resetGlobals/scr_resetGlobals.yy",},},
     {"id":{"name":"scr_vaseRandomize","path":"scripts/scr_vaseRandomize/scr_vaseRandomize.yy",},},
     {"id":{"name":"spr_arrows","path":"sprites/spr_arrows/spr_arrows.yy",},},
     {"id":{"name":"spr_cannonPlaceholder","path":"sprites/spr_cannonPlaceholder/spr_cannonPlaceholder.yy",},},

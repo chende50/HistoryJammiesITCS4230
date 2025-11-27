@@ -1,8 +1,6 @@
 time = global.cannonballsTime
 global.enemiesRemaining = 3
 
-show_debug_message(global.cannonballsTime)
-
 // Inherit the parent event
 alarm[0] = time
 game_over = false

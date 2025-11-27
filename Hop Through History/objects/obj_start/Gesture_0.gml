@@ -1,4 +1,4 @@
 with obj_gameController
 {
-	room_goto(next_game)
+	room_goto(rm_transition)
 }
