@@ -21,3 +21,8 @@ if(keyboard_check(ord("V"))){
 if(keyboard_check(ord("R"))){
 	game_restart()
 }
+
+if keyboard_check(ord("H"))
+{
+	room_goto(rm_highscoreScreen)
+}

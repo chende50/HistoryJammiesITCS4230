@@ -12,18 +12,18 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"9b5a7047-a2b0-4b4c-a62f-bce73e7853eb","name":"9b5a7047-a2b0-4b4c-a62f-bce73e7853eb","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"3f9a0cfb-a2b3-4dc4-8581-86f6c9ff4def","name":"3f9a0cfb-a2b3-4dc4-8581-86f6c9ff4def","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":64,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"9abd6472-0b3c-4c08-9a1f-58cef98ea77b","blendMode":0,"displayName":"default","isLocked":false,"name":"9abd6472-0b3c-4c08-9a1f-58cef98ea77b","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"44fd34b6-c749-481a-a394-4f7ad12fcd92","blendMode":0,"displayName":"default","isLocked":false,"name":"44fd34b6-c749-481a-a394-4f7ad12fcd92","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"spr_projectilePlaceholder",
   "nineSlice":null,
-  "origin":0,
+  "origin":4,
   "parent":{
     "name":"Cruising Cannonballs",
     "path":"folders/Sprites/Cruising Cannonballs.yy",
@@ -69,14 +69,14 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"9b5a7047-a2b0-4b4c-a62f-bce73e7853eb","path":"sprites/spr_projectilePlaceholder/spr_projectilePlaceholder.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"0bde50a4-27e6-49d2-82f1-ca0c6f9810cf","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"3f9a0cfb-a2b3-4dc4-8581-86f6c9ff4def","path":"sprites/spr_projectilePlaceholder/spr_projectilePlaceholder.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"d7ffb2ef-e9b1-47d1-a9bc-810943863b4d","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
     "volume":1.0,
-    "xorigin":0,
-    "yorigin":0,
+    "xorigin":32,
+    "yorigin":32,
   },
   "swatchColours":null,
   "swfPrecision":0.5,
