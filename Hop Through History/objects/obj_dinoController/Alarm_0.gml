@@ -1,15 +1,18 @@
 //Timer for game length
-if !global.dinoPlayed{
-	room_goto(rm_transition)
+if global.dinoPlayed {
+	if !game_over
+	{
+		score += 100
+		//Increment difficulty once timer runs out
+		global.meteorRate -= 5
+		global.meteorSpeed += 1
+
+		//Clamp difficulty variables
+		global.meteorRate = clamp(global.meteorRate, 10, 30)
+		global.meteroSpeed = clamp(global.meteorSpeed, 2, 8)
+		room_goto(rm_transition)
+	}	
+} else {
 	global.dinoPlayed = true
-	exit
+	instance_create_layer(room_width/2, room_height/2, "loseObjs", obj_tutorialEnd)
 }
-//Increment difficulty once timer runs out
-global.meteorRate -= 5
-global.meteorSpeed += 1
-
-//Clamp difficulty variables
-global.meteorRate = clamp(global.meteorRate, 10, 30)
-global.meteroSpeed = clamp(global.meteorSpeed, 2, 8)
-
-event_inherited();

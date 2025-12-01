@@ -32,4 +32,9 @@ if global.paintingPlayed{
 		instance_create_layer(960, 240, "loseObjs", obj_loseText)
 		alarm[2] = 120
 	}
-}
+} else {
+	if(abs(balance) > dangerZone and !game_over){
+		global.paintingPlayed = true
+		instance_create_layer(room_width/2, room_height/2, "loseObjs", obj_tutorialEnd)
+	}
+}	
