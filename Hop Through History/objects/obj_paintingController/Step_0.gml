@@ -34,7 +34,8 @@ if global.paintingPlayed{
 	}
 } else {
 	if(abs(balance) > dangerZone and !game_over){
-		global.paintingPlayed = true
-		instance_create_layer(room_width/2, room_height/2, "loseObjs", obj_tutorialEnd)
+		game_over = true
+		instance_destroy(obj_paintingGood)
+		instance_create_layer(400, 450, "Instances", obj_paintingBad)
 	}
 }	

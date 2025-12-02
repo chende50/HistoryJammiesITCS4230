@@ -10,8 +10,7 @@ if global.dinoPlayed{
 
 
 	} else {
-		global.dinoPlayed = true
-		instance_create_layer(room_width/2, room_height/2, "loseObjs", obj_tutorialEnd)
+		instance_create_layer(x, y, "Instances", obj_deadDinosaur)
 }
 
 instance_destroy(obj_dinosaur)

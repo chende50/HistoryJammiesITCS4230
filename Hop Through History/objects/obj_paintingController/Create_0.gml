@@ -1,8 +1,10 @@
 // Inherit the parent event
 event_inherited();
 
+instance_create_layer(400, 450, "Instances", obj_paintingGood)
 //decides size of danger zone in balance bar
 dangerZone = maxBalance * global.zoneSize
+
 
 balance = 0
 

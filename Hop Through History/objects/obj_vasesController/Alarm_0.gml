@@ -2,6 +2,7 @@ if global.vasesPlayed
 {
 	if !game_over
 	{
+		global.winStreak++
 		played = true
 		global.vasesTime -= 66
 		global.vasesTime = clamp(global.vasesTime, 200, 600)

@@ -13,6 +13,7 @@ if global.cannonballsPlayed
 		played = true
 		global.cannonballsTime -= 60
 		global.cannonballsTime = clamp(global.cannonballsTime, 300, 600)
+		global.winStreak++
 		score += 100
 		room_goto(rm_transition)
 	}
