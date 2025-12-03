@@ -3,7 +3,7 @@ if global.paintingPlayed {
 	if !game_over
 	{
 		global.winStreak++
-		score += 100
+		score += 100 * global.multiplier
 		global.zoneSize -= .1
 		global.zoneSize = clamp(global.zoneSize, .2, .8)
 		room_goto(rm_transition)

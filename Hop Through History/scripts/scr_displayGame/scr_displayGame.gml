@@ -31,18 +31,20 @@ function scr_displayGame(game){
 	
 	draw_set_font(f_bigger)
 	draw_set_halign(fa_center)
-	draw_text(960, 140, "Next Game: " + gameName)
+	draw_text(960, 100, "Next Game: \n" + gameName)
 	
-	draw_text(960, 400, "Controls:")
+	draw_set_font(f_big)
+	draw_text(960, 700, "Controls:")
 	if hasOtherControls
 	{
-		draw_sprite(controls, 0, 832, 650)
-		draw_sprite(secondaryControls, 0, 1088, 650)
+		draw_sprite(controls, 0, 832, 880)
+		draw_sprite(secondaryControls, 0, 1088, 880)
 	}	
 	else
 	{
-		draw_sprite(controls, 0, 960, 650)
+		draw_sprite(controls, 0, 960, 880)
 	}
 	
-	draw_text(960, 800, "Press space to continue")
+	draw_set_font(f_small)
+	draw_text(960, 1000, "Press space to continue")
 }

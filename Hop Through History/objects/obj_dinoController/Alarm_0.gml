@@ -3,7 +3,7 @@ if global.dinoPlayed {
 	if !game_over
 	{
 		global.winStreak++
-		score += 100
+		score += 100 * global.multiplier
 		//Increment difficulty once timer runs out
 		global.meteorRate -= 3
 		global.meteorSpeed += 1

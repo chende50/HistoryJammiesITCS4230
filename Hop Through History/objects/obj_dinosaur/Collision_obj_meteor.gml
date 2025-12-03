@@ -5,6 +5,7 @@ if global.dinoPlayed{
 		game_over = true
 		instance_create_layer(960, 540, "loseObjs", obj_lose)
 		instance_create_layer(960, 240, "loseObjs", obj_loseText)
+		global.winStreak = 0
 		alarm[2] = 120
 	} 
 

@@ -5,6 +5,7 @@ if global.cannonballsPlayed
 		game_over = true
 		instance_create_layer(960, 540, "loseObjs", obj_lose)
 		instance_create_layer(960, 240, "loseObjs", obj_loseText)
+		global.winStreak = 0
 		alarm[2] = 120
 	}
 
@@ -14,7 +15,7 @@ if global.cannonballsPlayed
 		global.cannonballsTime -= 60
 		global.cannonballsTime = clamp(global.cannonballsTime, 300, 600)
 		global.winStreak++
-		score += 100
+		score += 100 * global.multiplier
 		room_goto(rm_transition)
 	}
 } else {
