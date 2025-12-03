@@ -68,6 +68,7 @@
     {"id":{"name":"obj_paintingCharacter","path":"objects/obj_paintingCharacter/obj_paintingCharacter.yy",},},
     {"id":{"name":"obj_paintingController","path":"objects/obj_paintingController/obj_paintingController.yy",},},
     {"id":{"name":"obj_paintingGood","path":"objects/obj_paintingGood/obj_paintingGood.yy",},},
+    {"id":{"name":"obj_pr_fire","path":"objects/obj_pr_fire/obj_pr_fire.yy",},},
     {"id":{"name":"obj_projectile","path":"objects/obj_projectile/obj_projectile.yy",},},
     {"id":{"name":"obj_returnButton","path":"objects/obj_returnButton/obj_returnButton.yy",},},
     {"id":{"name":"obj_scoreDisplay","path":"objects/obj_scoreDisplay/obj_scoreDisplay.yy",},},
