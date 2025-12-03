@@ -2,7 +2,13 @@
 global.portals--
 if global.portals <= 0
 {
-	room_goto(rm_loseScreen)
+	if score > global.highscore
+	{
+		global.highscore = score
+		room_goto(rm_highscoreScreen)
+	} else {
+		room_goto(rm_loseScreen)
+	}
 }
 else
 {

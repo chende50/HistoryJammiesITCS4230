@@ -10,7 +10,7 @@ if global.dinoPlayed {
 
 		//Clamp difficulty variables
 		global.meteorRate = clamp(global.meteorRate, 12, 30)
-		global.meteroSpeed = clamp(global.meteorSpeed, 2, 8)
+		global.meteorSpeed = clamp(global.meteorSpeed, 2, 8)
 		room_goto(rm_transition)
 	}	
 } else {

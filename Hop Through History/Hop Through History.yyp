@@ -70,6 +70,7 @@
     {"id":{"name":"obj_paintingGood","path":"objects/obj_paintingGood/obj_paintingGood.yy",},},
     {"id":{"name":"obj_projectile","path":"objects/obj_projectile/obj_projectile.yy",},},
     {"id":{"name":"obj_returnButton","path":"objects/obj_returnButton/obj_returnButton.yy",},},
+    {"id":{"name":"obj_scoreDisplay","path":"objects/obj_scoreDisplay/obj_scoreDisplay.yy",},},
     {"id":{"name":"obj_start","path":"objects/obj_start/obj_start.yy",},},
     {"id":{"name":"obj_test","path":"objects/obj_test/obj_test.yy",},},
     {"id":{"name":"obj_transitionController","path":"objects/obj_transitionController/obj_transitionController.yy",},},

@@ -12,6 +12,7 @@ global.seed = randomize()
 //Win streak counter and multiplier
 global.winStreak = 0
 global.multiplier = 1
+global.highscore = 0
 
 global.portals = 3
 score = 0

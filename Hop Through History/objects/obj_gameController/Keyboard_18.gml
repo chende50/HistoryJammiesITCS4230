@@ -26,3 +26,7 @@ if keyboard_check(ord("H"))
 {
 	room_goto(rm_highscoreScreen)
 }
+if keyboard_check(ord("L"))
+{
+	room_goto(rm_loseScreen)
+}
