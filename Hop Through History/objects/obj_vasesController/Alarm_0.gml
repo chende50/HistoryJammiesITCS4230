@@ -1,3 +1,8 @@
+with obj_option
+{
+	part_system_destroy(_ps)
+}
+
 if global.vasesPlayed
 {
 	if !game_over

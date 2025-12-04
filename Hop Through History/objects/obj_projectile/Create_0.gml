@@ -3,7 +3,7 @@ directionToCannon = point_direction(x, y, obj_cannon.x, obj_cannon.y)
 
 //Particles
 //pr_fire
-_ps = part_system_create();
+_ps = part_system_create_layer("particles", false, pr_fire);
 part_system_draw_order(_ps, true);
 
 //Emitter
