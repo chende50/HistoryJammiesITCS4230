@@ -1,0 +1,1 @@
+image_angle = point_direction(x, y, obj_crosshair.x, obj_crosshair.y) - 90

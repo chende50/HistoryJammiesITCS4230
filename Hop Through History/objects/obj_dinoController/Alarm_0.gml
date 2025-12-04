@@ -1,3 +1,8 @@
+with obj_meteor
+{
+	instance_destroy()
+}
+
 //Timer for game length
 if global.dinoPlayed {
 	if !game_over

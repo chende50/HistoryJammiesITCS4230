@@ -1,3 +1,12 @@
+with obj_projectile
+{
+	instance_destroy()
+}
+with obj_cannon
+{
+	part_system_destroy(_ps)
+}
+
 if global.cannonballsPlayed
 {
 	if global.enemiesRemaining > 0
