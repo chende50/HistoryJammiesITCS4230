@@ -1,9 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"obj_tutorialEnable",
-  "eventList":[],
+  "%Name":"obj_tutorial",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":13,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"obj_tutorialEnable",
+  "name":"obj_tutorial",
   "overriddenProperties":[],
   "parent":{
     "name":"Buttons",

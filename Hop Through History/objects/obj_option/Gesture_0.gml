@@ -1,3 +1,7 @@
+if obj_vasesController.game_over{
+	exit	
+}
+
 if correct
 {
 	global.numCorrect++
