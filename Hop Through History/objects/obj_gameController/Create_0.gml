@@ -37,3 +37,4 @@ global.vasesPlayed = false
 //First game is randomly selected from array
 next_game = scr_nextGame(current_game)
 
+audio_play_sound(sd_menuMusic, 1, true)

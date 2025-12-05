@@ -3,6 +3,8 @@ with obj_meteor
 	instance_destroy()
 }
 
+audio_play_sound(sd_win, 1, false)
+
 //Timer for game length
 if global.dinoPlayed {
 	if !game_over

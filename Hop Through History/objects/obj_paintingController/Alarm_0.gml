@@ -1,3 +1,5 @@
+audio_play_sound(sd_win, 1, false)
+
 //Timer for game length
 if global.paintingPlayed {
 	if !game_over

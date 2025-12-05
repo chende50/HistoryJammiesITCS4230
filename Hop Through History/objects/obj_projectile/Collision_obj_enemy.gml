@@ -1,8 +1,10 @@
 instance_destroy(other)
 global.enemiesRemaining --
+audio_play_sound(sd_fireball, 1, false)
 
 if global.enemiesRemaining <= 0
 {	
+	audio_play_sound(sd_win, 1, false)
 	with obj_cannon
 	{
 		//Blue
@@ -30,7 +32,6 @@ if global.enemiesRemaining <= 0
 		with obj_cannonballsController
 		{
 			game_over = false
-			instance_create_layer(960, 540, "Instances", obj_win)
 			alarm[0] = 120
 		}
 		obj_cannon.active = false

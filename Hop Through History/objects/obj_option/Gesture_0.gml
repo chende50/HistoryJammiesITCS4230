@@ -7,6 +7,7 @@ if correct
 	global.numCorrect++
 	if global.numCorrect >= 3
 	{
+		audio_play_sound(sd_win, 1, false)
 		with obj_option
 		{
 			//Blue
@@ -32,7 +33,6 @@ if correct
 			with obj_vasesController
 			{
 				game_over = false
-				instance_create_layer(960, 540, "Instances", obj_win)
 				alarm[0] = 120
 			}
 		}
@@ -58,6 +58,7 @@ else
 			game_over = true
 			instance_create_layer(960, 540, "loseObjs", obj_lose)
 			instance_create_layer(960, 240, "loseObjs", obj_loseText)
+			audio_play_sound(sd_portalBreak, 1, false)
 			global.winStreak = 0
 			alarm[2] = 120
 		}

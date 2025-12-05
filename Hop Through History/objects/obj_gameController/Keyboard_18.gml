@@ -30,3 +30,20 @@ if keyboard_check(ord("L"))
 {
 	room_goto(rm_loseScreen)
 }
+
+if keyboard_check(ord("S"))
+{
+	score += 100
+}
+if keyboard_check(ord("M"))
+{
+	global.multiplier++
+}
+if keyboard_check(ord("W"))
+{
+	global.winStreak++
+}
+if keyboard_check(ord("K"))
+{
+	global.portals++
+}

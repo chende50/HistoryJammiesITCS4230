@@ -5,6 +5,7 @@ for (i = 0; i < global.portals; i++)
 
 draw_set_font(f_big)
 draw_set_halign(fa_left)
+draw_set_colour(c_white)
 draw_text(50, 100, "Score: " + string(score))
 draw_text(50, 150, "Multiplier: " + string(global.multiplier) + "x")
 

@@ -1,5 +1,6 @@
 //Alarm to send player to transition screen after losing a game
 global.portals--
+
 if global.portals <= 0
 {
 	if score > global.highscore

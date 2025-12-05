@@ -28,8 +28,10 @@ if game_over
 if global.paintingPlayed{
 	if(abs(balance) > dangerZone and !game_over){
 		game_over = true
+		audio_play_sound(sd_brush, 1, false)
 		instance_create_layer(960, 540, "loseObjs", obj_lose)
 		instance_create_layer(960, 240, "loseObjs", obj_loseText)
+		audio_play_sound(sd_portalBreak, 1, false)
 		global.winStreak = 0
 		alarm[2] = 120
 	}
