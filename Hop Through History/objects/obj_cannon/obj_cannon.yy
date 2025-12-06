@@ -12,7 +12,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Cruising Cannonballs",
-    "path":"folders/Particles/Objects/Cruising Cannonballs.yy",
+    "path":"folders/Objects/Cruising Cannonballs.yy",
   },
   "parentObjectId":null,
   "persistent":false,

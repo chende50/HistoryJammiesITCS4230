@@ -1,4 +1,5 @@
-if obj_vasesController.game_over{
+if obj_vasesController.game_over or global.numCorrect >= 3
+{
 	exit	
 }
 
@@ -7,6 +8,11 @@ if correct
 	global.numCorrect++
 	if global.numCorrect >= 3
 	{
+		if object_exists(obj_wrong)
+		{
+			instance_destroy(obj_wrong)
+		}
+		
 		audio_play_sound(sd_win, 1, false)
 		with obj_option
 		{
@@ -47,12 +53,12 @@ if correct
 }
 else
 {
-	with obj_option
-	{
-		part_system_destroy(_ps)
-	}
 	if global.vasesPlayed
 	{
+		with obj_option
+		{
+			part_system_destroy(_ps)
+		}
 		with obj_vasesController
 		{
 			game_over = true

@@ -20,4 +20,9 @@ function scr_vaseRandomize(options){
 	obj_vase.image_index = targetSprite
 	
 	audio_play_sound(sd_vaseClink, 1, false)
+	
+	if object_exists(obj_wrong)
+	{
+		instance_destroy(obj_wrong)
+	}
 }

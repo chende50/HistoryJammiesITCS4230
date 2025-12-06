@@ -7,7 +7,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Dino Disaster",
-    "path":"folders/Particles/Objects/Dino Disaster.yy",
+    "path":"folders/Objects/Dino Disaster.yy",
   },
   "parentObjectId":null,
   "persistent":false,

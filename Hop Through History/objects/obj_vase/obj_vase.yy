@@ -9,7 +9,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Various Vases",
-    "path":"folders/Particles/Objects/Various Vases.yy",
+    "path":"folders/Objects/Various Vases.yy",
   },
   "parentObjectId":null,
   "persistent":false,

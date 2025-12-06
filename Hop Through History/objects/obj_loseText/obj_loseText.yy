@@ -7,7 +7,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"UI",
-    "path":"folders/Particles/Objects/UI.yy",
+    "path":"folders/Objects/UI.yy",
   },
   "parentObjectId":null,
   "persistent":false,
