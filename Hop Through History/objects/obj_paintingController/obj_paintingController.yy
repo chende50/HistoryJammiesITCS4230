@@ -19,7 +19,7 @@
   ],
   "parent":{
     "name":"Minigames",
-    "path":"folders/Objects/Controllers/Minigames.yy",
+    "path":"folders/Particles/Objects/Controllers/Minigames.yy",
   },
   "parentObjectId":{
     "name":"obj_minigameController",

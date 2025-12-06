@@ -13,7 +13,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Minigames",
-    "path":"folders/Objects/Controllers/Minigames.yy",
+    "path":"folders/Particles/Objects/Controllers/Minigames.yy",
   },
   "parentObjectId":null,
   "persistent":false,

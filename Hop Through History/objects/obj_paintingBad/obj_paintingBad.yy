@@ -7,7 +7,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Painting Patience",
-    "path":"folders/Objects/Painting Patience.yy",
+    "path":"folders/Particles/Objects/Painting Patience.yy",
   },
   "parentObjectId":null,
   "persistent":false,

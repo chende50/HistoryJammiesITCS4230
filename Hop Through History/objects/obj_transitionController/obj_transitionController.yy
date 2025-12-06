@@ -11,7 +11,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Controllers",
-    "path":"folders/Objects/Controllers.yy",
+    "path":"folders/Particles/Objects/Controllers.yy",
   },
   "parentObjectId":null,
   "persistent":false,
