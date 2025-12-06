@@ -21,6 +21,7 @@ if global.dinoPlayed {
 		room_goto(rm_transition)
 	}	
 } else {
+	tutorialOver = true
 	global.dinoPlayed = true
 	instance_create_layer(room_width/2, room_height/2, "loseObjs", obj_tutorialEnd)
 }

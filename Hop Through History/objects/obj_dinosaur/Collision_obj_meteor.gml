@@ -1,3 +1,8 @@
+if obj_dinoController.tutorialOver
+{
+	exit
+}
+
 audio_play_sound(sd_fireball, 1, false)
 
 if global.dinoPlayed{
