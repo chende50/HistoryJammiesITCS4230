@@ -13,4 +13,5 @@ if global.paintingPlayed {
 } else {
 	global.paintingPlayed = true
 	instance_create_layer(room_width/2, room_height/2, "loseObjs", obj_tutorialEnd)
+	tutorialOver = true
 }

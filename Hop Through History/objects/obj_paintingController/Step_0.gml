@@ -16,7 +16,7 @@ drift = lerp(drift, driftTarget, driftSpeed)
 balance += drift
 
 
-if game_over
+if game_over or tutorialOver
 {
 	//stop movement
 	drift = 0
